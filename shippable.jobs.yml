@@ -1,0 +1,60 @@
+jobs:
+  - name: J1
+    type: runSh
+    steps:
+      - IN: R1
+      - TASK:
+        - script: echo "Hello, World!"
+
+  - name: J2
+    type: runSh
+    steps:
+      - IN: R1
+      - TASK:
+        - script: echo "Hello, World!"
+
+  - name: J3
+    type: runSh
+    steps:
+      - IN: R1
+      - TASK:
+        - script: echo "Hello, World!"
+
+  - name: J4
+    type: runSh
+    steps:
+      - IN: J1
+      - IN: J2
+      - IN: J3
+      - TASK:
+        - script: echo "Hello, World!"
+
+
+  - name: J5
+    type: runSh
+    steps:
+      - IN: J4
+      - TASK:
+        - script: echo "Hello, World!"
+
+  - name: J6
+    type: runSh
+    steps:
+      - IN: J4
+      - TASK:
+        - script: echo "Hello, World!"
+
+  - name: J7
+    type: runSh
+    steps:
+      - IN: J5
+      - IN: J6
+      - TASK:
+        - script: echo "Hello, World!"
+
+  - name: J8
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
