@@ -18,7 +18,7 @@ jobs:
     steps:
       - IN: R1
       - TASK:
-        - script: exit 128
+        #- script: exit 128
         - script: echo "Hello, World!"
 
   - name: J4
