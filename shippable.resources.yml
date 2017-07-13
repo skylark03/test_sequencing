@@ -1,0 +1,6 @@
+resources:
+  - name: R1
+    type: gitRepo
+    pointer:
+      sourceName: skylark03/test_sequencing
+      branch: master
