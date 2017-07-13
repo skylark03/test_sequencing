@@ -4,6 +4,7 @@ jobs:
     steps:
       - IN: R1
       - TASK:
+        - script: echo "Sleeping..." && sleep 20
         - script: echo "Hello, World!"
 
   - name: J2
@@ -11,6 +12,7 @@ jobs:
     steps:
       - IN: R1
       - TASK:
+        - script: echo "Sleeping..." && sleep 20
         - script: echo "Hello, World!"
 
   - name: J3
@@ -19,6 +21,7 @@ jobs:
       - IN: R1
       - TASK:
         #- script: exit 128
+        - script: echo "Sleeping..." && sleep 20
         - script: echo "Hello, World!"
 
   - name: J4
