@@ -3,5 +3,5 @@ resources:
     type: gitRepo
     integration: github
     pointer:
-      sourceName: skylark03/test_sequencing
+      sourceName: skylark03/test_state
       branch: master
