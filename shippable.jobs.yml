@@ -3,6 +3,7 @@ jobs:
     type: runSh
     steps:
       - IN: R1
+        switch: off
       - TASK:
         - script: echo "Sleeping..." && sleep 20
         - script: echo "Hello, World!"
