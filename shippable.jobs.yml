@@ -1,6 +1,7 @@
 jobs:
   - name: J1
     type: runSh
+    allowPublicAccess: true
     steps:
       - IN: R1
         switch: off
