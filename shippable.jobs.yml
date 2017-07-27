@@ -1,9 +1,4 @@
 jobs:
-  - name: test-firefox_runCI
-    type: runCI
-    steps:
-      - IN: J1
-      
   - name: J1
     type: runSh
     steps:
