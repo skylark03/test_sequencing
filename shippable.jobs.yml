@@ -64,3 +64,122 @@ jobs:
       - IN: J7
       - TASK:
         - script: echo "Hello, World!"
+
+  - name: J9
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J10
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J11
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J12
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J13
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J14
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J15
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J16
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J17
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J18
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J19
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J20
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J21
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J22
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J23
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J24
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J25
+    type: runSh
+    steps:
+      - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
