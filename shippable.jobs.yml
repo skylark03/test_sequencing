@@ -2,6 +2,8 @@ jobs:
   - name: J1
     type: runSh
     allowPublicAccess: true
+    flags:
+      - alpha
     steps:
       - IN: R1
         switch: off
@@ -11,6 +13,8 @@ jobs:
 
   - name: J2
     type: runSh
+    flags:
+      - alpha
     steps:
       - IN: R1
       - TASK:
@@ -19,6 +23,8 @@ jobs:
 
   - name: J3
     type: runSh
+    flags:
+      - beta
     steps:
       - IN: R1
       - TASK:
@@ -30,8 +36,11 @@ jobs:
     type: runSh
     steps:
       - IN: J1
+        switch: off
       - IN: J2
+        switch: off
       - IN: J3
+        switch: off
       - TASK:
         - script: echo "Hello, World!"
 
