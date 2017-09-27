@@ -63,7 +63,9 @@ jobs:
     type: runSh
     steps:
       - IN: J5
+        switch: off
       - IN: J6
+        switch: off
       - TASK:
         - script: echo "Hello, World!"
 
@@ -190,5 +192,32 @@ jobs:
     type: runSh
     steps:
       - IN: J7
+      - TASK:
+        - script: echo "Hello, World!"
+
+  - name: J26
+    type: runSh
+    flags:
+      - alpha
+    steps:
+      - IN: J4
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J27
+    type: runSh
+    flags:
+      - alpha
+    steps:
+      - IN: J26
+      - TASK:
+        - script: echo "Hello, World!"
+        
+  - name: J28
+    type: runSh
+    flags:
+      - alpha
+    steps:
+      - IN: J27
       - TASK:
         - script: echo "Hello, World!"
